@@ -1,5 +1,5 @@
 # MoG-QSM
-MoG-QSM: Model-based Generative Adversarial Deep Learning Network for Quantitative Susceptibility Mapping
+MoG-QSM: Model-based Generative Adversarial Deep Learning Network for Quantitative Susceptibility Mapping.  
 MoG-QSM was proposed by Ruimin Feng and Dr. Hongjiang Wei. It reconstructs high quality susceptibility maps from tissue phase. 
 
 
@@ -19,12 +19,12 @@ MoG-QSM contains the following folders:
 test_tools.py offers some supporting functions for network testing such as image patch stitching, dipole kernel generation, etc. 
 test_demo.py shows how to perform network testing with data from the "data" folder
 
-5. train: It contains train_gen.py, train_joint.py and utils.py.
-train_gen.py: This is the code for generator training
-train_joint.py: This is the code for generator and discriminator jointly training
+5. train: It contains train_gen.py, train_joint.py and utils.py.  
+train_gen.py: This is the code for generator training  
+train_joint.py: This is the code for generator and discriminator jointly training  
 utils.py: It offers some supporting functions for network training
 
-6. NormFactor.mat: It cantains two parameters: mean and standard deviation of our training dataset.
+6. NormFactor.mat: The mean and standard deviation of our training dataset for input normalization.
 
 ###Usage  
 ##Test  
